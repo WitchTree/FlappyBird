@@ -21,7 +21,7 @@ public class MobileTouch : MonoBehaviour
             if (touch.phase == TouchPhase.Began)
             {
                 player_R.velocity = new Vector3(0, JumpPower, 0);
-                player_R.AddForce(Vector3.down * 10);
+                player_R.AddForce(Vector3.down * 20);
             }
         }
 
