@@ -8,7 +8,8 @@ public class PipeScoreCheck : MonoBehaviour
         if (collider.CompareTag("Player")) {
             GameManager.instance.score++;
             UIManager.instance.UpdateScoreUI(GameManager.instance.score);
-            Debug.Log(GameManager.instance.score);
+            
+            //Debug.Log(GameManager.instance.score);
         }
     }
 }

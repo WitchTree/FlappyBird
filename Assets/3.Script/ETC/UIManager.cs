@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class UIManager : MonoBehaviour
 {
     private static UIManager Instance;
+    public GameManager gamemanager;
     public static UIManager instance 
     {
         get 
@@ -20,9 +21,24 @@ public class UIManager : MonoBehaviour
     }
 
     [SerializeField]private Text scoreText;
+    [SerializeField] private Text GameOverScore;
 
-    public void UpdateScoreUI(int score) 
+    public void UpdateScoreUI(long score)
     {
         scoreText.text = string.Format("Score: {0}", score);
+        if(score<10)
+        {
+            GameOverScore.text = string.Format("00{0}", score);
+        }
+        else if(score<100&&score>10)
+        {
+            GameOverScore.text = string.Format("0{0}", score);
+        }
+        else
+        {
+            GameOverScore.text = string.Format("{0}", score);
+        }
+
     }
+
 }

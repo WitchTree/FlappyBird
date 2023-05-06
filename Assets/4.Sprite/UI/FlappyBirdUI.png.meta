@@ -132,10 +132,10 @@ TextureImporter:
       name: FlappyBirdUI_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 19
-        width: 721
-        height: 1281
+        x: 27
+        y: 38
+        width: 1445
+        height: 2562
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,10 +153,10 @@ TextureImporter:
       name: FlappyBirdUI_1
       rect:
         serializedVersion: 2
-        x: 759
-        y: 484
-        width: 132
-        height: 801
+        x: 1518
+        y: 968
+        width: 264
+        height: 1605
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,10 +174,10 @@ TextureImporter:
       name: FlappyBirdUI_2
       rect:
         serializedVersion: 2
-        x: 900
-        y: 484
-        width: 131
-        height: 801
+        x: 1799
+        y: 968
+        width: 262
+        height: 1605
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,10 +195,10 @@ TextureImporter:
       name: FlappyBirdUI_3
       rect:
         serializedVersion: 2
-        x: 1074
-        y: 969
-        width: 842
-        height: 281
+        x: 2148
+        y: 1938
+        width: 1683
+        height: 563
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,10 +216,10 @@ TextureImporter:
       name: FlappyBirdUI_4
       rect:
         serializedVersion: 2
-        x: 1939
-        y: 1015
-        width: 26
-        height: 21
+        x: 3878
+        y: 2029
+        width: 55
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,10 +237,10 @@ TextureImporter:
       name: FlappyBirdUI_5
       rect:
         serializedVersion: 2
-        x: 1949
-        y: 1024
-        width: 87
-        height: 61
+        x: 3899
+        y: 2048
+        width: 173
+        height: 123
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -258,10 +258,10 @@ TextureImporter:
       name: FlappyBirdUI_6
       rect:
         serializedVersion: 2
-        x: 1939
-        y: 1004
-        width: 17
-        height: 12
+        x: 3878
+        y: 2008
+        width: 33
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -279,10 +279,10 @@ TextureImporter:
       name: FlappyBirdUI_7
       rect:
         serializedVersion: 2
-        x: 1969
-        y: 954
-        width: 36
-        height: 36
+        x: 3939
+        y: 1909
+        width: 72
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -300,10 +300,10 @@ TextureImporter:
       name: FlappyBirdUI_8
       rect:
         serializedVersion: 2
-        x: 1270
-        y: 839
-        width: 160
-        height: 107
+        x: 2539
+        y: 1678
+        width: 324
+        height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -321,10 +321,10 @@ TextureImporter:
       name: FlappyBirdUI_9
       rect:
         serializedVersion: 2
-        x: 1440
-        y: 819
-        width: 291
-        height: 127
+        x: 2878
+        y: 1638
+        width: 583
+        height: 254
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -342,10 +342,10 @@ TextureImporter:
       name: FlappyBirdUI_10
       rect:
         serializedVersion: 2
-        x: 1849
-        y: 874
-        width: 107
-        height: 47
+        x: 3698
+        y: 1748
+        width: 213
+        height: 93
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -363,10 +363,10 @@ TextureImporter:
       name: FlappyBirdUI_11
       rect:
         serializedVersion: 2
-        x: 1964
-        y: 909
-        width: 12
-        height: 12
+        x: 3928
+        y: 1818
+        width: 24
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -384,10 +384,10 @@ TextureImporter:
       name: FlappyBirdUI_12
       rect:
         serializedVersion: 2
-        x: 1984
-        y: 914
-        width: 7
-        height: 17
+        x: 3968
+        y: 1828
+        width: 13
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -405,10 +405,10 @@ TextureImporter:
       name: FlappyBirdUI_13
       rect:
         serializedVersion: 2
-        x: 1999
-        y: 909
-        width: 12
-        height: 12
+        x: 3998
+        y: 1818
+        width: 23
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -426,10 +426,10 @@ TextureImporter:
       name: FlappyBirdUI_14
       rect:
         serializedVersion: 2
-        x: 2030
-        y: 874
-        width: 105
-        height: 47
+        x: 4057
+        y: 1748
+        width: 214
+        height: 93
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -447,10 +447,10 @@ TextureImporter:
       name: FlappyBirdUI_15
       rect:
         serializedVersion: 2
-        x: 1070
-        y: 799
-        width: 111
-        height: 112
+        x: 2138
+        y: 1598
+        width: 224
+        height: 224
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -468,10 +468,10 @@ TextureImporter:
       name: FlappyBirdUI_16
       rect:
         serializedVersion: 2
-        x: 1189
-        y: 810
-        width: 41
-        height: 90
+        x: 2379
+        y: 1619
+        width: 82
+        height: 182
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -489,10 +489,10 @@ TextureImporter:
       name: FlappyBirdUI_17
       rect:
         serializedVersion: 2
-        x: 1969
-        y: 839
-        width: 51
-        height: 67
+        x: 3939
+        y: 1678
+        width: 103
+        height: 134
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -510,10 +510,10 @@ TextureImporter:
       name: FlappyBirdUI_18
       rect:
         serializedVersion: 2
-        x: 1070
-        y: 680
-        width: 111
-        height: 111
+        x: 2138
+        y: 1359
+        width: 224
+        height: 222
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -531,10 +531,10 @@ TextureImporter:
       name: FlappyBirdUI_19
       rect:
         serializedVersion: 2
-        x: 1204
-        y: 739
-        width: 26
-        height: 52
+        x: 2408
+        y: 1478
+        width: 53
+        height: 103
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -552,10 +552,10 @@ TextureImporter:
       name: FlappyBirdUI_20
       rect:
         serializedVersion: 2
-        x: 1270
-        y: 720
-        width: 61
-        height: 91
+        x: 2539
+        y: 1437
+        width: 123
+        height: 184
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -573,10 +573,10 @@ TextureImporter:
       name: FlappyBirdUI_21
       rect:
         serializedVersion: 2
-        x: 1349
-        y: 724
-        width: 156
-        height: 92
+        x: 2698
+        y: 1448
+        width: 313
+        height: 184
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -594,10 +594,10 @@ TextureImporter:
       name: FlappyBirdUI_22
       rect:
         serializedVersion: 2
-        x: 1544
-        y: 759
-        width: 36
-        height: 52
+        x: 3089
+        y: 1518
+        width: 72
+        height: 103
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -615,10 +615,10 @@ TextureImporter:
       name: FlappyBirdUI_23
       rect:
         serializedVersion: 2
-        x: 1849
-        y: 759
-        width: 202
-        height: 72
+        x: 3698
+        y: 1518
+        width: 404
+        height: 143
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -636,10 +636,10 @@ TextureImporter:
       name: FlappyBirdUI_24
       rect:
         serializedVersion: 2
-        x: 2059
-        y: 759
-        width: 67
-        height: 72
+        x: 4119
+        y: 1518
+        width: 133
+        height: 143
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -657,10 +657,10 @@ TextureImporter:
       name: FlappyBirdUI_25
       rect:
         serializedVersion: 2
-        x: 1195
-        y: 680
-        width: 35
-        height: 50
+        x: 2389
+        y: 1359
+        width: 72
+        height: 102
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -678,10 +678,10 @@ TextureImporter:
       name: FlappyBirdUI_26
       rect:
         serializedVersion: 2
-        x: 1544
-        y: 700
-        width: 36
-        height: 50
+        x: 3089
+        y: 1399
+        width: 72
+        height: 102
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -699,10 +699,10 @@ TextureImporter:
       name: FlappyBirdUI_27
       rect:
         serializedVersion: 2
-        x: 1625
-        y: 584
-        width: 261
-        height: 146
+        x: 3247
+        y: 1169
+        width: 525
+        height: 292
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -720,10 +720,10 @@ TextureImporter:
       name: FlappyBirdUI_28
       rect:
         serializedVersion: 2
-        x: 1070
-        y: 634
-        width: 81
-        height: 37
+        x: 2138
+        y: 1268
+        width: 164
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -741,10 +741,10 @@ TextureImporter:
       name: FlappyBirdUI_29
       rect:
         serializedVersion: 2
-        x: 1195
-        y: 619
-        width: 35
-        height: 52
+        x: 2389
+        y: 1239
+        width: 72
+        height: 103
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -762,10 +762,10 @@ TextureImporter:
       name: FlappyBirdUI_30
       rect:
         serializedVersion: 2
-        x: 1920
-        y: 539
-        width: 111
-        height: 112
+        x: 3837
+        y: 1078
+        width: 224
+        height: 224
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -783,10 +783,10 @@ TextureImporter:
       name: FlappyBirdUI_31
       rect:
         serializedVersion: 2
-        x: 1059
-        y: 539
-        width: 202
-        height: 72
+        x: 2118
+        y: 1078
+        width: 404
+        height: 144
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -804,10 +804,10 @@ TextureImporter:
       name: FlappyBirdUI_32
       rect:
         serializedVersion: 2
-        x: 1334
-        y: 460
-        width: 261
-        height: 146
+        x: 2668
+        y: 917
+        width: 525
+        height: 294
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -825,10 +825,10 @@ TextureImporter:
       name: FlappyBirdUI_33
       rect:
         serializedVersion: 2
-        x: 1625
-        y: 469
-        width: 61
-        height: 92
+        x: 3247
+        y: 939
+        width: 125
+        height: 183
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -846,10 +846,10 @@ TextureImporter:
       name: FlappyBirdUI_34
       rect:
         serializedVersion: 2
-        x: 1695
-        y: 469
-        width: 61
-        height: 92
+        x: 3389
+        y: 939
+        width: 123
+        height: 183
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -867,10 +867,10 @@ TextureImporter:
       name: FlappyBirdUI_35
       rect:
         serializedVersion: 2
-        x: 1764
-        y: 469
-        width: 62
-        height: 92
+        x: 3529
+        y: 939
+        width: 122
+        height: 183
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -888,10 +888,10 @@ TextureImporter:
       name: FlappyBirdUI_36
       rect:
         serializedVersion: 2
-        x: 1834
-        y: 469
-        width: 61
-        height: 92
+        x: 3668
+        y: 939
+        width: 123
+        height: 183
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -909,10 +909,10 @@ TextureImporter:
       name: FlappyBirdUI_37
       rect:
         serializedVersion: 2
-        x: 1059
-        y: 460
-        width: 202
-        height: 71
+        x: 2118
+        y: 917
+        width: 404
+        height: 144
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -930,10 +930,10 @@ TextureImporter:
       name: FlappyBirdUI_38
       rect:
         serializedVersion: 2
-        x: 1920
-        y: 420
-        width: 111
-        height: 111
+        x: 3837
+        y: 839
+        width: 224
+        height: 222
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -951,10 +951,10 @@ TextureImporter:
       name: FlappyBirdUI_39
       rect:
         serializedVersion: 2
-        x: 759
-        y: 330
-        width: 246
-        height: 105
+        x: 1518
+        y: 657
+        width: 493
+        height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -972,10 +972,10 @@ TextureImporter:
       name: FlappyBirdUI_40
       rect:
         serializedVersion: 2
-        x: 1030
-        y: 330
-        width: 211
-        height: 105
+        x: 2059
+        y: 657
+        width: 423
+        height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -993,10 +993,10 @@ TextureImporter:
       name: FlappyBirdUI_41
       rect:
         serializedVersion: 2
-        x: 1304
-        y: 359
-        width: 67
-        height: 72
+        x: 2609
+        y: 719
+        width: 133
+        height: 143
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1014,10 +1014,10 @@ TextureImporter:
       name: FlappyBirdUI_42
       rect:
         serializedVersion: 2
-        x: 1394
-        y: 409
-        width: 32
-        height: 37
+        x: 2789
+        y: 818
+        width: 63
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1035,10 +1035,10 @@ TextureImporter:
       name: FlappyBirdUI_43
       rect:
         serializedVersion: 2
-        x: 1444
-        y: 409
-        width: 32
-        height: 37
+        x: 2888
+        y: 818
+        width: 63
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1056,10 +1056,10 @@ TextureImporter:
       name: FlappyBirdUI_44
       rect:
         serializedVersion: 2
-        x: 1489
-        y: 409
-        width: 32
-        height: 37
+        x: 2979
+        y: 818
+        width: 63
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1077,10 +1077,10 @@ TextureImporter:
       name: FlappyBirdUI_45
       rect:
         serializedVersion: 2
-        x: 1530
-        y: 409
-        width: 30
-        height: 37
+        x: 3059
+        y: 818
+        width: 62
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1098,10 +1098,10 @@ TextureImporter:
       name: FlappyBirdUI_46
       rect:
         serializedVersion: 2
-        x: 1574
-        y: 409
-        width: 32
-        height: 37
+        x: 3148
+        y: 818
+        width: 64
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1119,10 +1119,10 @@ TextureImporter:
       name: FlappyBirdUI_47
       rect:
         serializedVersion: 2
-        x: 1625
-        y: 349
-        width: 61
-        height: 92
+        x: 3247
+        y: 698
+        width: 125
+        height: 183
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1140,10 +1140,10 @@ TextureImporter:
       name: FlappyBirdUI_48
       rect:
         serializedVersion: 2
-        x: 1695
-        y: 349
-        width: 61
-        height: 92
+        x: 3389
+        y: 698
+        width: 123
+        height: 183
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1161,10 +1161,10 @@ TextureImporter:
       name: FlappyBirdUI_49
       rect:
         serializedVersion: 2
-        x: 1764
-        y: 349
-        width: 62
-        height: 92
+        x: 3529
+        y: 698
+        width: 122
+        height: 183
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1182,10 +1182,10 @@ TextureImporter:
       name: FlappyBirdUI_50
       rect:
         serializedVersion: 2
-        x: 1834
-        y: 349
-        width: 61
-        height: 92
+        x: 3668
+        y: 698
+        width: 123
+        height: 183
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1203,10 +1203,10 @@ TextureImporter:
       name: FlappyBirdUI_51
       rect:
         serializedVersion: 2
-        x: 1409
-        y: 365
-        width: 17
-        height: 36
+        x: 2818
+        y: 729
+        width: 34
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1224,10 +1224,10 @@ TextureImporter:
       name: FlappyBirdUI_52
       rect:
         serializedVersion: 2
-        x: 1444
-        y: 365
-        width: 32
-        height: 36
+        x: 2888
+        y: 729
+        width: 63
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1245,10 +1245,10 @@ TextureImporter:
       name: FlappyBirdUI_53
       rect:
         serializedVersion: 2
-        x: 1489
-        y: 365
-        width: 32
-        height: 36
+        x: 2979
+        y: 729
+        width: 63
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1266,10 +1266,10 @@ TextureImporter:
       name: FlappyBirdUI_54
       rect:
         serializedVersion: 2
-        x: 1530
-        y: 365
-        width: 30
-        height: 36
+        x: 3059
+        y: 729
+        width: 62
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1287,10 +1287,10 @@ TextureImporter:
       name: FlappyBirdUI_55
       rect:
         serializedVersion: 2
-        x: 1574
-        y: 365
-        width: 32
-        height: 36
+        x: 3148
+        y: 729
+        width: 64
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1308,10 +1308,10 @@ TextureImporter:
       name: FlappyBirdUI_56
       rect:
         serializedVersion: 2
-        x: 1904
-        y: 304
-        width: 87
-        height: 62
+        x: 3808
+        y: 609
+        width: 173
+        height: 122
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1329,10 +1329,10 @@ TextureImporter:
       name: FlappyBirdUI_57
       rect:
         serializedVersion: 2
-        x: 1449
-        y: 334
-        width: 16
-        height: 17
+        x: 2899
+        y: 668
+        width: 33
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1350,10 +1350,10 @@ TextureImporter:
       name: FlappyBirdUI_58
       rect:
         serializedVersion: 2
-        x: 1495
-        y: 345
-        width: 16
-        height: 11
+        x: 2987
+        y: 689
+        width: 34
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1371,10 +1371,10 @@ TextureImporter:
       name: FlappyBirdUI_59
       rect:
         serializedVersion: 2
-        x: 759
-        y: 180
-        width: 447
-        height: 121
+        x: 1518
+        y: 359
+        width: 894
+        height: 243
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1392,10 +1392,10 @@ TextureImporter:
       name: FlappyBirdUI_60
       rect:
         serializedVersion: 2
-        x: 1299
-        y: 39
-        width: 567
-        height: 287
+        x: 2598
+        y: 78
+        width: 1134
+        height: 573
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1413,10 +1413,10 @@ TextureImporter:
       name: FlappyBirdUI_61
       rect:
         serializedVersion: 2
-        x: 1904
-        y: 174
-        width: 87
-        height: 62
+        x: 3808
+        y: 349
+        width: 173
+        height: 122
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1434,10 +1434,10 @@ TextureImporter:
       name: FlappyBirdUI_62
       rect:
         serializedVersion: 2
-        x: 1904
-        y: 44
-        width: 87
-        height: 62
+        x: 3808
+        y: 89
+        width: 173
+        height: 122
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
