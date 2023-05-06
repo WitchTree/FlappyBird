@@ -656,9 +656,6 @@ GameObject:
   - component: {fileID: 129573265}
   - component: {fileID: 129573264}
   - component: {fileID: 129573263}
-  - component: {fileID: 129573268}
-  - component: {fileID: 129573267}
-  - component: {fileID: 129573269}
   m_Layer: 5
   m_Name: RankBoard
   m_TagString: Untagged
@@ -751,57 +748,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &129573267
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 129573262}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c5550bdf93c822b4a90771ca37fc9def, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rNames:
-  - {fileID: 197267993}
-  - {fileID: 2018885283}
-  - {fileID: 1306394889}
-  - {fileID: 1605336249}
-  - {fileID: 194977660}
-  rScores:
-  - {fileID: 1086234648}
-  - {fileID: 2127398339}
-  - {fileID: 2127906363}
-  - {fileID: 1417932087}
-  - {fileID: 188133244}
---- !u!114 &129573268
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 129573262}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bcdd0cb8d0871dd478a1fd12fe547fc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &129573269
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 129573262}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fde23b14fabe9e4d93665de07d866fb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myName: {fileID: 2014959571}
-  myScore: {fileID: 1684772075}
-  currentScore: 0
 --- !u!1 &138528148
 GameObject:
   m_ObjectHideFlags: 0
@@ -1132,6 +1078,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameOver: {fileID: 453979757}
   leaderBoard: {fileID: 129573262}
+  playerInput: {fileID: 1911413428}
+  dbmanager: {fileID: 864930506}
+  gameManager: {fileID: 3613201360851781551}
 --- !u!1 &188133243
 GameObject:
   m_ObjectHideFlags: 0
@@ -1980,9 +1929,6 @@ GameObject:
   - component: {fileID: 453979761}
   - component: {fileID: 453979760}
   - component: {fileID: 453979759}
-  - component: {fileID: 453979762}
-  - component: {fileID: 453979763}
-  - component: {fileID: 453979764}
   m_Layer: 5
   m_Name: GameOver
   m_TagString: Untagged
@@ -2084,57 +2030,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 60
   m_TargetDisplay: 0
---- !u!114 &453979762
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 453979757}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fde23b14fabe9e4d93665de07d866fb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myName: {fileID: 2014959571}
-  myScore: {fileID: 1684772075}
-  currentScore: 0
---- !u!114 &453979763
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 453979757}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bcdd0cb8d0871dd478a1fd12fe547fc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &453979764
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 453979757}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c5550bdf93c822b4a90771ca37fc9def, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rNames:
-  - {fileID: 197267993}
-  - {fileID: 2018885283}
-  - {fileID: 1306394889}
-  - {fileID: 1605336249}
-  - {fileID: 194977660}
-  rScores:
-  - {fileID: 1086234648}
-  - {fileID: 2127398339}
-  - {fileID: 2127906363}
-  - {fileID: 1417932087}
-  - {fileID: 188133244}
 --- !u!1 &460664574
 GameObject:
   m_ObjectHideFlags: 0
@@ -3409,10 +3304,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DBUri: https://flappybird-9f716-default-rtdb.asia-southeast1.firebasedatabase.app/
-  scoreText: {fileID: 1684772075}
+  score1: {fileID: 1086234648}
+  score2: {fileID: 2127398339}
+  score3: {fileID: 2127906363}
+  score4: {fileID: 1417932087}
+  score5: {fileID: 188133244}
+  name1: {fileID: 197267993}
+  name2: {fileID: 2018885283}
+  name3: {fileID: 1306394889}
+  name4: {fileID: 1605336249}
+  name5: {fileID: 194977660}
   gameManager: {fileID: 3613201360851781551}
-  BestScore: 0
-  CurrentScore: 0
 --- !u!4 &864930507
 Transform:
   m_ObjectHideFlags: 0
@@ -4979,6 +4881,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameOver: {fileID: 453979757}
   leaderBoard: {fileID: 129573262}
+  playerInput: {fileID: 1911413428}
+  dbmanager: {fileID: 864930506}
+  gameManager: {fileID: 3613201360851781551}
 --- !u!1 &1545097648
 GameObject:
   m_ObjectHideFlags: 0
@@ -5641,6 +5546,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameOver: {fileID: 453979757}
   leaderBoard: {fileID: 129573262}
+  playerInput: {fileID: 1911413428}
+  dbmanager: {fileID: 864930506}
+  gameManager: {fileID: 3613201360851781551}
 --- !u!1 &1684772074
 GameObject:
   m_ObjectHideFlags: 0
@@ -6273,7 +6181,7 @@ GameObject:
   - component: {fileID: 1911413429}
   - component: {fileID: 1911413428}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Name
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6489,6 +6397,7 @@ GameObject:
   - component: {fileID: 1989666720}
   - component: {fileID: 1989666719}
   - component: {fileID: 1989666718}
+  - component: {fileID: 1989666721}
   m_Layer: 5
   m_Name: SubmitButton
   m_TagString: Untagged
@@ -6560,9 +6469,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 453979762}
-        m_TargetAssemblyTypeName: SaveData, Assembly-CSharp
-        m_MethodName: SendScore
+      - m_Target: {fileID: 1989666721}
+        m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
+        m_MethodName: SubmitDB
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6610,6 +6519,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1989666716}
   m_CullTransparentMesh: 1
+--- !u!114 &1989666721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1989666716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b5029f2829455d4ab368446295ee36e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameOver: {fileID: 453979757}
+  leaderBoard: {fileID: 129573262}
+  playerInput: {fileID: 1911413428}
+  dbmanager: {fileID: 864930506}
+  gameManager: {fileID: 3613201360851781551}
 --- !u!1 &2013279757
 GameObject:
   m_ObjectHideFlags: 0

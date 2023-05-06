@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class ScoreData 
 {
+    public string Name="";
     public int Score = 0;
 
-    public ScoreData(int score)
+    public ScoreData(string name,int score)
     {
+        Name=name;
         Score = score;
     }
 }

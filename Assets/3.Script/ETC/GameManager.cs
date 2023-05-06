@@ -36,21 +36,10 @@ public class GameManager : MonoBehaviour
 
     public int score;
     public bool isGameover;
-
-    public void WriteDB()
-    {
-        DatabaseReference reference = FirebaseDatabase.DefaultInstance.RootReference;
-        ScoreData DATA = new ScoreData(score);
-        string jsondata = JsonUtility.ToJson(DATA);
-        reference.Child("Player").Child("_current").SetRawJsonValueAsync(jsondata);        
-
-    }
-
     void Update() {
         if (isGameover) {
             gameOver.SetActive(true);
             Time.timeScale = 0;
-            WriteDB();
             
         }
     }
