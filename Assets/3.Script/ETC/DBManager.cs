@@ -8,8 +8,8 @@ using UnityEngine.UI;
 
 public class DBManager : MonoBehaviour
 {
-    public string DBUri = "https://flappybird-9f716-default-rtdb.asia-southeast1.firebasedatabase.app/";
-    DatabaseReference reference;
+    public string DBUri = "https://flappybird-c06fd-default-rtdb.asia-southeast1.firebasedatabase.app/";
+    DatabaseReference reference; 
     public TMPro.TextMeshProUGUI score1;
     public TMPro.TextMeshProUGUI score2;
     public TMPro.TextMeshProUGUI score3;
@@ -21,7 +21,8 @@ public class DBManager : MonoBehaviour
     public TMPro.TextMeshProUGUI name3;
     public TMPro.TextMeshProUGUI name4;
     public TMPro.TextMeshProUGUI name5;
-    public GameManager gameManager;    
+    public GameManager gameManager;   
+
 
 
     [SerializeField]
@@ -29,12 +30,13 @@ public class DBManager : MonoBehaviour
     void Start()
     {
         FirebaseApp.DefaultInstance.Options.DatabaseUrl = new Uri(DBUri);
+        for(int i=0;i<30;i++)
+        {
+            ReadDB();
+        }
+        
     }
 
-    void Update()
-    {
-        ReadDB();
-    }
 
     public void ReadDB()
     {
@@ -73,23 +75,6 @@ public class DBManager : MonoBehaviour
                 int.TryParse(current, out currentScore);
 
                 if(currentScore>bestScore){    
-                    DatabaseReference reference = FirebaseDatabase.DefaultInstance.RootReference;
-                    ScoreData DATA4 = new ScoreData(fourthPlayer,fourthScore);
-                    string jsondata4 = JsonUtility.ToJson(DATA4);
-                    reference.Child("Player").Child("_5").SetRawJsonValueAsync(jsondata4); 
-
-                    ScoreData DATA3 = new ScoreData(thirdPlayer,thirdScore);
-                    string jsondata3 = JsonUtility.ToJson(DATA3);
-                    reference.Child("Player").Child("_4").SetRawJsonValueAsync(jsondata3); 
-
-                    ScoreData DATA2 = new ScoreData(secondPlayer,secondScore);
-                    string jsondata2 = JsonUtility.ToJson(DATA2);
-                    reference.Child("Player").Child("_3").SetRawJsonValueAsync(jsondata2); 
-
-                    ScoreData DATA1 = new ScoreData(bestPlayer,bestScore);
-                    string jsondata1 = JsonUtility.ToJson(DATA1);
-                    reference.Child("Player").Child("_2").SetRawJsonValueAsync(jsondata1); 
-
                     ScoreData DATA = new ScoreData(currentPlayer,currentScore);
                     string jsondata = JsonUtility.ToJson(DATA);
                     reference.Child("Player").Child("_1").SetRawJsonValueAsync(jsondata); 
@@ -97,45 +82,21 @@ public class DBManager : MonoBehaviour
                 }
 
                 else if(currentScore>=secondScore&&currentScore<bestScore){
-                    DatabaseReference reference = FirebaseDatabase.DefaultInstance.RootReference;
-                    ScoreData DATA4 = new ScoreData(fourthPlayer,fourthScore);
-                    string jsondata4 = JsonUtility.ToJson(DATA4);
-                    reference.Child("Player").Child("_5").SetRawJsonValueAsync(jsondata4); 
-
-                    ScoreData DATA3 = new ScoreData(thirdPlayer,thirdScore);
-                    string jsondata3 = JsonUtility.ToJson(DATA3);
-                    reference.Child("Player").Child("_4").SetRawJsonValueAsync(jsondata3); 
-
-                    ScoreData DATA2 = new ScoreData(secondPlayer,secondScore);
-                    string jsondata2 = JsonUtility.ToJson(DATA2);
-                    reference.Child("Player").Child("_3").SetRawJsonValueAsync(jsondata2); 
-
+                    
                     ScoreData DATA = new ScoreData(currentPlayer,currentScore);
                     string jsondata = JsonUtility.ToJson(DATA);
                     reference.Child("Player").Child("_2").SetRawJsonValueAsync(jsondata);    
                 }
 
                 else if(currentScore>=thirdScore&&currentScore<secondScore){
-                    DatabaseReference reference = FirebaseDatabase.DefaultInstance.RootReference;
-                    ScoreData DATA4 = new ScoreData(fourthPlayer,fourthScore);
-                    string jsondata4 = JsonUtility.ToJson(DATA4);
-                    reference.Child("Player").Child("_5").SetRawJsonValueAsync(jsondata4); 
-
-                    ScoreData DATA3 = new ScoreData(thirdPlayer,thirdScore);
-                    string jsondata3 = JsonUtility.ToJson(DATA3);
-                    reference.Child("Player").Child("_4").SetRawJsonValueAsync(jsondata3); 
-
+                    
                     ScoreData DATA = new ScoreData(currentPlayer,currentScore);
                     string jsondata = JsonUtility.ToJson(DATA);
                     reference.Child("Player").Child("_3").SetRawJsonValueAsync(jsondata);    
                 }
 
                 else if(currentScore>=fourthScore&&currentScore<thirdScore){
-                    DatabaseReference reference = FirebaseDatabase.DefaultInstance.RootReference;
-                    ScoreData DATA4 = new ScoreData(fourthPlayer,fourthScore);
-                    string jsondata4 = JsonUtility.ToJson(DATA4);
-                    reference.Child("Player").Child("_5").SetRawJsonValueAsync(jsondata4); 
-
+                   
                     ScoreData DATA = new ScoreData(currentPlayer,currentScore);
                     string jsondata = JsonUtility.ToJson(DATA);
                     reference.Child("Player").Child("_4").SetRawJsonValueAsync(jsondata);    

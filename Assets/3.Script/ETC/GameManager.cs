@@ -10,10 +10,11 @@ using System;
 public class GameManager : MonoBehaviour
 {
     private static GameManager Instance;
-    public string DBUri = "https://flappybird-9f716-default-rtdb.asia-southeast1.firebasedatabase.app/";
+    public string DBUri = "https://flappybird-c06fd-default-rtdb.asia-southeast1.firebasedatabase.app/";
     DatabaseReference reference;
     [SerializeField] GameObject gameOver;
     [SerializeField] private DBManager dbmanager;
+    
 
 
     [SerializeField]
@@ -39,6 +40,7 @@ public class GameManager : MonoBehaviour
     void Update() {
         if (isGameover) {
             gameOver.SetActive(true);
+
             Time.timeScale = 0;
             
         }

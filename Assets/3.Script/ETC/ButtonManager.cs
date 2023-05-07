@@ -15,8 +15,10 @@ public class ButtonManager : MonoBehaviour
     private string playerName;
     [SerializeField] DBManager dbmanager;
     
+    
     public GameManager gameManager;
     
+
     public void Restart()
     {        
         SceneManager.LoadScene("Main");
@@ -29,16 +31,23 @@ public class ButtonManager : MonoBehaviour
         DatabaseReference reference = FirebaseDatabase.DefaultInstance.RootReference;
         ScoreData DATA = new ScoreData(playerName,gameManager.score);
         string jsondata = JsonUtility.ToJson(DATA);
-        reference.Child("Player").Child("_current").SetRawJsonValueAsync(jsondata);        
- 
+        reference.Child("Player").Child("_current").SetRawJsonValueAsync(jsondata);  
+        for(int i=0;i<30;i++)
+        {
+            dbmanager.ReadDB();
+        }
+        
     }
-
 
     public void turnOnLeaderBoard()
     {
         gameOver.SetActive(false);
         leaderBoard.SetActive(true);
-        dbmanager.ReadDB();
+        for(int i=0;i<30;i++)
+        {
+            dbmanager.ReadDB();
+        }
+        
     }
 
     public void turnOffLeaderBoard()
