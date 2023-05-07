@@ -28,7 +28,15 @@ public class PlayerControl : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision) 
     {
-        GameManager.instance.isGameover = true;
+        if(collision.gameObject.tag=="Apple"||collision.gameObject.tag=="Coin")
+        {
+            GameManager.instance.isGameover = false;
+        }
+
+        else
+        {
+            GameManager.instance.isGameover = true;
+        }
     }
     
     

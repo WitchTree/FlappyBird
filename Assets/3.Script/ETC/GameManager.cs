@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
     DatabaseReference reference;
     [SerializeField] GameObject gameOver;
     [SerializeField] private DBManager dbmanager;
+    [SerializeField] GameObject clock;
     
 
 
@@ -39,6 +40,7 @@ public class GameManager : MonoBehaviour
     public bool isGameover;
     void Update() {
         if (isGameover) {
+            clock.SetActive(false);
             gameOver.SetActive(true);
 
             Time.timeScale = 0;
