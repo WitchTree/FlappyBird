@@ -2,10 +2,28 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using Firebase;
+using Firebase.Database;
+using System;
 
 public class GameManager : MonoBehaviour
 {
     private static GameManager Instance;
+    public string DBUri = "https://flappybird-c06fd-default-rtdb.asia-southeast1.firebasedatabase.app/";
+    DatabaseReference reference;
+    [SerializeField] GameObject gameOver;
+    [SerializeField] private DBManager dbmanager;
+    [SerializeField] GameObject clock;
+    
+
+
+    [SerializeField]
+    private void Start()
+    {
+        FirebaseApp.DefaultInstance.Options.DatabaseUrl = new Uri(DBUri);
+        Time.timeScale = 1;
+    }
     public static GameManager instance 
     {
         get 
@@ -20,10 +38,13 @@ public class GameManager : MonoBehaviour
 
     public int score;
     public bool isGameover;
-
     void Update() {
         if (isGameover) {
-            SceneManager.LoadScene("Gameover");
+            clock.SetActive(false);
+            gameOver.SetActive(true);
+
+            Time.timeScale = 0;
+            
         }
     }
 }

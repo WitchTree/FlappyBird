@@ -12,7 +12,7 @@ public class BackGroundLoop : MonoBehaviour
         transform.position += new Vector3(-30 * speed * Time.deltaTime, 0, 0);
         if (transform.position.x < -530)
         {
-            transform.position = new Vector3(1060f, 0, 0);
+            transform.position = new Vector3(1060f, -45, 0);
         }
     }
 
