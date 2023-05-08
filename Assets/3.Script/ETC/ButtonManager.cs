@@ -22,6 +22,10 @@ public class ButtonManager : MonoBehaviour
     public void Restart()
     {        
         SceneManager.LoadScene("Main");
+        if(GameManager.instance.isGameover)
+        {
+            GameManager.instance.isGameover = false;
+        }
 
     }
 
